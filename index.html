@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Ticket Booking App</title>
+      <!-- Tailwind CDN for simple setup -->
+      <script src="https://cdn.tailwindcss.com"></script> 
+      <style>
+        /* Optional: Set a nice, clean font */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+      </style>
+    </head>
+    <body>
+        <!-- CRITICAL: This is the element where React will attach the application -->
+        <div id="root"></div> 
+        <!-- VITE injects the main application script here (no need to change this line) -->
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>
